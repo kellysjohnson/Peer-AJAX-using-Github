@@ -74,7 +74,7 @@ $(document).ready(function(){
     });
 
     $('.js-query').keyup(function(key){
-        console.log(key);
+        //console.log(key);
 
         if(key.keyCode ==13){
             $('.js-search').click();
