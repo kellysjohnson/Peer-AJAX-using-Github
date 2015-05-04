@@ -73,17 +73,12 @@ $(document).ready(function(){
 
     });
 
+    $('.js-query').keyup(function(key){
+        console.log(key);
 
-    //
-    //$.ajax({
-    //    type:'GET',
-    //    datatype:'json',
-    //    crossDomain: true,
-    //    url: encodeURI(domain+ $('.searchBox').val()),
-    //    complete: function(data){
-    //        console.log(data);
-    //    }
-    //});
-
+        if(key.keyCode ==13){
+            $('.js-search').click();
+        }
+    });
 
 });
