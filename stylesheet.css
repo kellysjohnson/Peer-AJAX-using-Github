@@ -1,0 +1,35 @@
+.user-name img {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.user-name h3 {
+    float: left;
+}
+
+.user-name {
+    overflow: auto;
+}
+
+h3 a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+h3 a:hover {
+    color: #269abc;
+    text-decoration: none;
+}
+
+.col-sm-4 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.searchBar {
+    margin-bottom: 15px;
+}
